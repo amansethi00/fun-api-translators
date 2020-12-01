@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap");
 :root {
-  --turtle-gray: #f59e0b;
+  --turtle-gray: #881337;
 }
 body {
   font-family: "Dancing Script", cursive;
@@ -27,8 +27,17 @@ textarea {
   border: 1px solid black;
   margin-top: 1rem;
 }
+#option {
+  margin: 2rem;
+}
+#optiontext {
+  /* width: auto;
+  height: 2vh;
+  margin-bottom: 2rem; */
+}
 #languages {
   padding: 0.5rem;
+  display: block;
 }
 .nav-bar {
   font-weight: bolder;
@@ -52,15 +61,16 @@ textarea {
   margin: 2rem 2rem;
   font-size: large;
   font-weight: bold;
+  color: white;
 }
 #para {
   margin: auto;
   text-align: center;
 }
 .footer {
-  /* position: fixed;
+  /* position: fixed; */
   display: block;
-  bottom: 0; */
+  bottom: 0;
   height: 5rem;
   width: 100%;
   background-color: var(--turtle-gray);

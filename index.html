@@ -14,29 +14,35 @@
     <div class="container">
       <center>
         <h2>
-          Choose any type of transaltion and we will translate the text to the
-          funny language 🤪
+          Choose from following funny translation languages and we will
+          translate the text to the language for you 🤪
         </h2>
       </center>
 
       <textarea
-        placeholder="Write text in English to translate to bananas"
+        placeholder="Put here text in English which you want to translate"
         id="textInp"
       ></textarea>
       <center>
-        <label for="languages">Choose from the options</label>
-        <select id="languages" name="languages">
-          <option value="pirate">Pirate</option>
-          <option value="emoji">Emoji</option>
-          <option value="groot">Groot(Avengers)</option>
-          <option value="pig-latin">Pig-Latin</option>
+        <div id="option">
+          <label for="languages"
+            ><p id="optiontext">Choose from the options</p></label
+          >
+          <select id="languages" name="languages">
+            <option value="dothraki">Dothraki(Game of Thrones)</option>
+            <option value="emoji">Emoji</option>
+            <option value="groot">Groot(Avengers)</option>
+            <option value="klingon">Klingon</option>
+            <option value="pirate">Pirate</option>
+            <option value="pig-latin">Pig-Latin</option>
+            <option value="ubbi-dubbi">Ubbi-Dubbi</option>
+            <option value="shakespeare">Shakespeare</option>
 
-          <option value="shakespeare">Shakespeare</option>
-          <option value="klingon">Klingon</option>
-          <option value="yoda">Yoda</option>
-          <option value="dothraki">Dothraki(Game of Thrones)</option>
-        </select>
-        <input type="submit" id="btn" />
+            <option value="yoda">Yoda</option>
+          </select>
+          <input type="submit" id="btn" />
+        </div>
+
         <!-- <button input type="submit" id="btn">
           Translate to banana
         </button> -->
